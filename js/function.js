@@ -24,6 +24,14 @@ $(window).on("load",function(){
       $(this).next('tr').slideToggle();
     //   $(this).next('tr').siblings('tr').slideUp();
    });
+  
+// scheduleのhover  randomで
+　$('.ready').hover(function(){
+　    $(this).css('background',"#2E9AFE");
+　    $(this).css('color','white')
+　} , function(){
+　    $(this).css('background','');
+　})
    
 // FAQのアコーディオン
 
